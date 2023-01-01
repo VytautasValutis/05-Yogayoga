@@ -24,13 +24,35 @@ img {
     float: left;
     margin-left: 25px;
 }
+p {
+    display: inline-block;
+    color: #000;
+    line-height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+p.orange {
+    color: #F94A15;
+}
 nav {
     display: inline-block;
     float: right;
 }
 a {
     display: inline-block;
-    float: right;
+    float: left;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+a:first-child {
+    margin-left: 0;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
 }
 main {
     margin-top: 20px;
